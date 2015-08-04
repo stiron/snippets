@@ -4,9 +4,9 @@ use strict;
 use warnings;
 use Log::Log4perl;
 
-my $log_layout = 'Log::Log4perl::Layout::PatternLayout';
+my $log_layout          = 'Log::Log4perl::Layout::PatternLayout';
 my $log_layout_template = '%d{ISO8601} [%p] %m{chomp}%n';
-my $log_file     = 'my_log.log';
+my $log_file            = 'my_log.log';
 
 my $log_conf = qq(
     log4perl.logger = DEBUG, Screen, File
