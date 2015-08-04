@@ -9,8 +9,10 @@ def cmd_run(cmd):
         stderr = subprocess.PIPE
     )
     stdout_value, stderr_value = proc.communicate()
+    exit_value = proc.returncode
     retval = {
         'stdout': stdout_value,
         'stderr': stderr_value,
+        'exit': exit_value
     }
     return retval
