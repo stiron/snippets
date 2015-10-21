@@ -2,7 +2,7 @@ package PackAge;
 
 =head1 NAME
 
-B<PackAge> - Imlements PackAge...
+B<PackAge> - Implements PackAge...
 
 =head1 SYNOPSYS
 
